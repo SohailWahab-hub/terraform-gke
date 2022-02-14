@@ -29,7 +29,7 @@ resource "google_container_node_pool" "default" {
     machine_type = var.machine_type
 
     metadata = {
-      disable-legacy-endpoints = "true"
+      disable-legacy-endpoints = "false"
     }
 
     oauth_scopes = [
