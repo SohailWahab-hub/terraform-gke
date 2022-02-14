@@ -3,11 +3,11 @@ variable "name" {
 }
 
 variable "project" {
-  default = "optimum-spring-238818"
+  default = "kubernetes2-317313"
 }
 
 variable "location" {
-  default = "us-central1"
+  default = "europe-west1"
 }
 
 variable "initial_node_count" {
